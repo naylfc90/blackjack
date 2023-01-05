@@ -140,5 +140,14 @@ describe("Blackjack", () => {
 
       expect(playerCount).toEqual(21);
     });
+
+    it.only("checks dealer does not receive more cards if they have score of 17 or above", () => {
+      const dealersHand = ["A-Spade", "6-Diamond"];
+      const dealerCount = 17;
+      const playerCount = 18;
+
+      expect(stand()).toBe("You Win!");
+      expect(dealerHand.length).toBe(2);
+    });
   });
 });
