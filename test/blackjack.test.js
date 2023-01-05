@@ -147,7 +147,7 @@ describe("Blackjack", () => {
       const playerCount = 18;
 
       expect(stand()).toBe("You Win!");
-      expect(dealerHand.length).toBe(2);
+      expect(dealersHand.length).toBe(2);
     });
   });
 });
