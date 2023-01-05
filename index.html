@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./src/blackjack.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>BLACKJACK</h1>
+        <p id="outcome"></p>
+
+    </div>
+
+    <div id="dealer">
+        <h3>Dealer <span id="dealer-count"></span></h3>
+    </div>
+
+    <div id="dealer-cards">
+        <img id="hidden-card" src="./assets/back.png">
+
+    </div>
+
+    <div id="player">
+        <h3>You <span id="player-count"></span></h3>
+    </div>
+
+    <div id="player-cards"></div>
+
+    <div id="controls">
+    <br>
+    <button id="hit">Hit</button>
+    <button id="stand">Stand</button>
+
+    </div>
+</body>
+</html>

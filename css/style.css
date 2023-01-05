@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #f3f3f4;
+}
+
+#header {
+  background-color: #565658;
+  color: #f3f3f4;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+#dealer {
+  padding: 15px;
+}
+
+#player {
+  padding: 15px;
+}
+
+img {
+  height: 180px;
+  width: 130px;
+  margin: 4px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  margin: 4px;
+  border-radius: 23px;
+}
+
+#hit {
+  background-color: #6fc956;
+}
+
+#stand {
+  background-color: #df1f1f;
+}
+
+#outcome {
+  font-size: 20px;
+  padding-top: 5px;
+}
